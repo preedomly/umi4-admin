@@ -24,8 +24,8 @@ const userApi = {
     await waitTime(2000);
 
     switch(true) {
-      case username === 'admin' && password === 'ant.design':
-      case username === 'user' && password === 'ant.design':
+      case username === 'admin' && password === '123':
+      case username === 'user' && password === '123':
       case /^1\d{10}$/.test(mobile) && Boolean(captcha):
         res.send(
           handleCommonRes({
